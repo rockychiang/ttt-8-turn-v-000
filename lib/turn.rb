@@ -21,3 +21,5 @@ def valid_move?(board, index)
 end
 
 def move(board,index,player = "X")
+
+end
