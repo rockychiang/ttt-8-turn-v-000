@@ -20,6 +20,13 @@ def valid_move?(board, index)
   end
 end
 
-def move(board,index,player = "X")
+def input_to_index(input)
+  index = input.to_i
+end
 
+def move(board,index,player = "X")
+  if valid_move?(board,index)
+    board[index] = player
+  else
+  end
 end
